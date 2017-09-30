@@ -1,5 +1,5 @@
 /**
- *Package for testing Calculate/
+ *Package for testing Calculate.
  *
  *@author deniskaa (koty.denis@gmail.com)
  *@version 1.0

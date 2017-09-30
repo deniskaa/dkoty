@@ -5,7 +5,7 @@ package ru.job4j;
  *@since 28.07.2017
  *@version 1.0
  */
-public class Calculate{
+public class Calculate {
 
   /**
    *Main.
@@ -19,7 +19,7 @@ public class Calculate{
    *@param name your name.
    *@return Echo plus your name.
    */
-  public String echo(String name){
+  public String echo(String name) {
     return "Echo, echo, echo: " + name;
   }
 }

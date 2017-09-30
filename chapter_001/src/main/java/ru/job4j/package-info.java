@@ -1,5 +1,5 @@
 /**
- *Package for calculate task/
+ *Package for calculate task.
  *
  *@author deniskaa (koty.denis@gmail.com)
  *@version 1.0
