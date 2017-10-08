@@ -9,13 +9,28 @@ package ru.job4j.max;
 public class Max {
 
     /**
-     * Метод определяет максимальное число.
-     * @param first - первое число.
+     * Метод определяет максимальное число из двух входящих значений.
+     *
+     * @param first  - первое число.
      * @param second - второе число.
      * @return - возвращает максимально высокое число .
      */
 
-    public int max(int first, int second) {
-        return( first >= second ? first : second);
+    public static int max(int first, int second) {
+        return (first >= second ? first : second);
+    }
+
+    /**
+     * Метод определяет максимальное число из трёх входящих значений.
+     * @param first - первое число.
+     * @param second - второе число.
+     * @param third - третье число.
+     * @return - результат вычислений.
+     */
+
+    public int maxThreeNum(int first, int second, int third) {
+        return (max(max(first, second), third));
     }
 }
+
+
