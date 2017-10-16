@@ -18,9 +18,8 @@ public class Turn {
     public int[] back(int[] array) {
         int halfArray = array.length / 2;
         for(int count = 0; count < halfArray; count++ ){
-            int buffer = 0;
             int mirrorNum = array.length - (count + 1);
-            buffer = array[count];
+            int buffer = array[count];
             array[count] = array[mirrorNum];
             array[mirrorNum] = buffer;
 
